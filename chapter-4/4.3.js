@@ -1,5 +1,4 @@
 class Calculator {
-
     constructor() {
         this.value = 0;
     }
