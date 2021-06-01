@@ -1,0 +1,20 @@
+-> what is Javascript ?
+-> basic information about V8
+-> How Asynchronous JS works (stack, event queue, event loop)
+-> How JS code executed (from top to bottom)
+-> primitives vs objects
+-> Garbage collection
+-> learn about few important array and string methods
+-> Map, Set, WeakMap, WeakSet
+-> constructor functions
+-> what are callbacks, promises, and async await (with examples)
+-> what is closures (with example)
+-> what is currying (with example)
+-> what is hoisting (with example)
+-> classical vs prototypical inheritance
+-> what is prototypical inheritance (with example)
+-> ES6 classes (with example)
+-> scope (let vs var vs const)
+-> How this keyword works (with example)
+-> difference b/w function expression vs function declaration vs arrow function
+->
