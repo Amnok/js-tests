@@ -17,4 +17,5 @@
 -> scope (let vs var vs const)
 -> How this keyword works (with example)
 -> difference b/w function expression vs function declaration vs arrow function
-->
+->what is new in ES6
+-> Map vs Object
