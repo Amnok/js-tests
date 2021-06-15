@@ -16,7 +16,7 @@
 -> classical vs prototypical inheritance
 -> what is prototypical inheritance (with example)
 -> ES6 classes (with example)
--> scope (let vs var vs const)
+-> scope (let vs var vs const) with hoisting
 -> How this keyword works (with example)
 -> difference b/w function expression vs function declaration vs arrow function
 ->what is new in ES6
