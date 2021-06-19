@@ -6,4 +6,5 @@ to make them non-numeric.
 -> if we explicitky return any object from a constructor function then this is ignored
 and that object gets returned (that object overrides this)
 -> Symbols keys are skipped in for-in loop and Object.keys()
-->
+->Object.seal() -> sets configurable : false.
+-> Object.freeze() => sets configurable : false and writable : false.
