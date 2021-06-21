@@ -1,0 +1,7 @@
+.toCenter {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 1px solid red;
+    transform: translate(50%, -50%)
+;}
