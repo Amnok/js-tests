@@ -22,3 +22,22 @@
 ->what is new in ES6
 -> Map vs Object
 -> what's the usecase for WeakMap and WeakSet
+
+-->HTML<--
+-> what is box-model
+-> block vs inline vs inline-block
+-> where to use box-sizing
+-> difference b/w pseudo classes ans pseudo selectors
+-> overflow properties and their usages
+->what are semantics in HTML
+-> what to define in head sections?
+-> various meta tags ?
+-> what are entities in HTML
+-> what are hyperlinks ? internal vs external hyperlinking ? hyperlinks vs buttons ? different kind of targets
+-> different properties of images and object-fit
+-> Audio and video elemnts different attributes
+-> lists and tables
+-> why do we use normalize css
+-> selectors specificity
+-> inheritance in CSS
+->
