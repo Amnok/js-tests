@@ -40,4 +40,6 @@
 -> why do we use normalize css
 -> selectors specificity
 -> inheritance in CSS
+-> px vs % vs em vs rem (measuring units)
+-> positioning (relative vs absoulute vs fixed vs sticky)
 ->
