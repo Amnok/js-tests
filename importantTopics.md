@@ -42,4 +42,5 @@
 -> inheritance in CSS
 -> px vs % vs em vs rem (measuring units)
 -> positioning (relative vs absoulute vs fixed vs sticky)
-->
+-> flex (flex grow, flex shrink, flex basis)
+-> flex (justify-content, align-items, align-content)
