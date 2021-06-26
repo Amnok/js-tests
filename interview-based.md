@@ -1,3 +1,4 @@
+-->JAVASCRIPT<--
 -> what is Javascript ?
 -> null vs undefined
 -> basic information about V8
@@ -23,7 +24,7 @@
 -> Map vs Object
 -> what's the usecase for WeakMap and WeakSet
 
--->HTML<--
+-->HTML && CSS<--
 -> what is box-model
 -> block vs inline vs inline-block
 -> where to use box-sizing
@@ -34,7 +35,7 @@
 -> various meta tags ?
 -> what are entities in HTML
 -> what are hyperlinks ? internal vs external hyperlinking ? hyperlinks vs buttons ? different kind of targets
--> different properties of images and object-fit
+-> different properties of images and object- fit
 -> Audio and video elemnts different attributes
 -> lists and tables
 -> why do we use normalize css
@@ -44,3 +45,9 @@
 -> positioning (relative vs absoulute vs fixed vs sticky)
 -> flex (flex grow, flex shrink, flex basis)
 -> flex (justify-content, align-items, align-content)
+-> media queries with examples
+-> what are CSS sprites
+-> images and its types (raster vs vector)
+-> transformations, transitions and animatons
+-> object oriented CSS
+-> BEM
