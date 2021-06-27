@@ -51,3 +51,4 @@
 -> transformations, transitions and animatons
 -> object oriented CSS
 -> BEM
+-> importat meta tags and open graph protocol (all meta tags)
