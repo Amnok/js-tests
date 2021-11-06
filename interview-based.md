@@ -1,5 +1,7 @@
 -->JAVASCRIPT<--
 -> what is Javascript ?
+-> compilation vs interpreter
+-> binding (call vs apply vs bind)
 -> null vs undefined
 -> basic information about V8
 -> Shallow vs deep copy
