@@ -9,7 +9,7 @@
 // .then(val => console.log(val))
 // .catch(err => console.log('error', err));
 
-// scenario-2 
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-2 
 
 // function test () {
 //     return new Promise((resolve, reject) => {
@@ -29,7 +29,7 @@
 //     console.log('the forth one', val);
 // }).catch(e => console.log('the last error'));
 
-// scenario-3
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-3
 
 // function test() {
 //     return new Promise((resolve, reject) => {
@@ -42,13 +42,13 @@
 // .finally(() => console.log('in finally 2'))
 // .catch((e) => console.log(e))
 
-// scenario-4
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-4
 
 // Promise.then(f1).catch(f2);
 // vs
 // Promise.then(f1, f2);
 
-// scenario-4
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-4
 
 // var p = new Promise((resolve, reject) => {
 //     reject(Error('The Fails!'))
@@ -56,7 +56,7 @@
 //   p.catch(error => console.log(error.message))
 //   p.catch(error => console.log(error.message))
 
-// scenario-5
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  scenario-5
 
 // var p = new Promise((resolve, reject) => {
 //     return Promise.reject(Error('The Fails!'))
@@ -64,7 +64,7 @@
 //   p.catch(error => console.log(error.message))
 //   p.catch(error => console.log(error.message))
 
-// scenario-6
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-6
 
 // new Promise((resolve, reject) => {
 //     resolve('Success!')
@@ -77,7 +77,7 @@
 //   })
 //   .catch(error => console.log(error.message))
 
-// scenario-7
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-7
 
 // var p = new Promise(function() {
 //     return "OK";
@@ -92,7 +92,7 @@
 //  });
  
 
-// scenario-8
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-8
 
 // var p = new Promise(function(resolve, reject) {
 //     setTimeout(function() {
@@ -104,7 +104,7 @@
 //     console.log(data);
 //  });
 
-// scenario-9
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-9
 
 // var p = new Promise(function(resolve, reject) {
 //     setTimeout(function() {
@@ -117,14 +117,14 @@
 //     console.log(data + " Good");
 //  })
 
-// scenario-10
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-10
 
 // var p = new Promise(function(resolve, reject) {
 //     throw "Sorry";
 //  }).
 //  then((data) => console.log(data), (data) => console.log(data));
 
-// scenario-11
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-11
 
 // var p = new Promise(function(resolve, reject) {
 //     resolve("OK");
@@ -141,7 +141,7 @@
 //  console.log(p2 === p3);
 
 
-// scenario-12
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-12
 
 // var p = new Promise(function(resolve, reject) {
 //     resolve("OK");
