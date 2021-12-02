@@ -35,3 +35,28 @@ async function test() {
  Promise.resolve(v  => console.log(val))
  console.log('there');
 }
+
+
+// ------> guess the output for below
+
+// function test() {
+//     let i = 9;
+//     setTimeout(() => {
+//         i = i+1;
+//     }, 0);
+//     while(1!= 10) {
+//         continue;
+//     }
+//     return i;
+// }
+// console.log(test());
+
+// --------> guess the output for below 
+
+// function test() {
+//     console.log(name);
+//     console.log(age);
+//     var name = 'ak';
+//     let age = 27;
+// }
+// test();
