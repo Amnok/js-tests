@@ -1,4 +1,5 @@
 -->JAVASCRIPT<--
+
 -> what is Javascript ?
 -> compilation vs interpreter
 -> binding (call vs apply vs bind)
