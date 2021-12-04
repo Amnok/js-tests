@@ -156,3 +156,56 @@
 //  p2.then(function(data) {
 //     console.log(data);
 //  });
+
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-13
+
+// const myPromise = () => Promise.resolve('I have resolved!');
+
+// function firstFunction() {
+//   myPromise().then(res => console.log('first'+res));
+//   console.log('second');
+// }
+// async function secondFunction() {
+//   setTimeout(() => {
+//     console.log('timeout');
+//   });
+//   console.log(await myPromise());
+//   console.log('second');
+// }
+// firstFunction();
+// secondFunction();
+
+
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-14
+
+
+// const promise = new Promise(res => res(2));
+// promise.then(v => {
+//         console.log('first', v);//2
+//         return v * 2;
+//     })
+//     .then(v => {
+//         console.log('second', v); //4
+//         return v * 2;
+//     })
+//     .then(v => {
+//         console.log('last', v);  //8
+//     return v*2;
+//     })
+//     .finally(v => {
+//             console.log('finally', v); //8
+//             return v * 2;//
+//         })
+
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-14
+
+// function test() {
+//     console.log('first');
+//     setTimeout(() => {
+//         console.log('the longer one...');
+//     }, 10);
+//     console.log('last');
+// }
+// for (let index = 0; index < 3; index++) {
+//     test();
+// }
