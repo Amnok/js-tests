@@ -1,10 +1,12 @@
 const element = document.querySelector('#myInput');
 let timeout;
 element.addEventListener('input', (e) => {
-    clearTimeout(timeout);
+    if(timeout > 2000) {
+        clearTimeout(timeout);
+    }
     timeout = setTimeout(() => {
         someApi();
-    }, 1000);
+    }, 2000);
 });
 
 function someApi() {
