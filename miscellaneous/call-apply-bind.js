@@ -1,8 +1,8 @@
 
 const user = {
-    name: 'ankit',
-    print(a,b) {
-        console.log(this.name, a, b);
+    name: 'test',
+    print() {
+        console.log(this.name);
     }
 }
 

@@ -7,10 +7,11 @@ Function.prototype.myBind = function (context) {
 
 const user = {
     name: 'aka',
-    getName() {
-        console.log(this.name);
-    }
+    getName = () => {
+
+}
 }
 
 const secondMethod = user.getName.myBind(user);
 secondMethod(1);
+

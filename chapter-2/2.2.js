@@ -15,3 +15,13 @@ const memoize = getMemoize();
 memoize(2);
 memoize(100);
 memoize(2);
+
+
+let obj = {
+  name: 'abc',
+getName( ) {
+  
+}
+};
+
+obj.getName();
