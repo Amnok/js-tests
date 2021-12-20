@@ -1,3 +1,5 @@
+// write a method which prints from 1 to 5 every second
+
 function withprint() {
     console.log(i);
 }
