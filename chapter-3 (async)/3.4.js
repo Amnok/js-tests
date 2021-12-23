@@ -181,19 +181,19 @@
 
 // const promise = new Promise(res => res(2));
 // promise.then(v => {
-//         console.log('first', v);//2
+//         console.log('first', v);
 //         return v * 2;
 //     })
 //     .then(v => {
-//         console.log('second', v); //4
+//         console.log('second', v); 
 //         return v * 2;
 //     })
 //     .then(v => {
-//         console.log('last', v);  //8
+//         console.log('last', v);  
 //     return v*2;
 //     })
 //     .finally(v => {
-//             console.log('finally', v); //8
+//             console.log('finally', v); 
 //             return v * 2;//
 //         })
 
@@ -209,3 +209,11 @@
 // for (let index = 0; index < 3; index++) {
 //     test();
 // }
+
+
+
+console.log('first');
+setTimeout(() => {
+    console.log('some log');
+}, 1000);
+console.log('one more');

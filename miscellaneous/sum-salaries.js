@@ -1,4 +1,4 @@
-let company = { // the same object, compressed for brevity
+let company = {
     sales: [{name: 'John', salary: 1000}, {name: 'Alice', salary: 1600 }],
     development: {
       sites: [{name: 'Peter', salary: 2000}, {name: 'Alex', salary: 1800 }],
@@ -8,17 +8,14 @@ let company = { // the same object, compressed for brevity
 
   function getSum(company) {
     let total = 0;
-    function calculateSum(data) {
-        for([key, value] of Object.entries(data)) {
+        for([key, value] of Object.entries(company)) {
             if(Array.isArray(value)){
                 total += value.reduce((acc, cur) => {return acc + cur.salary}, 0)
             } else {
-                calculateSum(value);
+              return total + getSum(value);
             }
         }
-
-  }
-  calculateSum(company);
+  // calculateSum(company);
   return total;
 }
 let val = getSum(company);

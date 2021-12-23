@@ -30,7 +30,6 @@ let obj = {
         console.log(this.name);
     }
 }
-``
 
 async function test() {
  console.log('hi');
@@ -62,3 +61,7 @@ async function test() {
 //     let age = 27;
 // }
 // test();
+
+
+// write a methods printNumbers (from, to) that outputs a number every second between from & to. (Don't use setInterval)
+// write a caching function (memoize) which either calculates or returns from cache
