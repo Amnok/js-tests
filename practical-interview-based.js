@@ -34,10 +34,17 @@ let obj = {
 async function test() {
  console.log('hi');
  Promise.resolve(v  => console.log(val))
+ setTimeout(() => {
+     console.log('me too');
+ }, 0);
  console.log('there');
 }
 
-
+console.log('the one');
+setTimeout(() => {
+    console.log(' the other one');
+}, 0);
+console.log(' the big one');
 // ------> guess the output for below
 
 // function test() {
@@ -62,6 +69,11 @@ async function test() {
 // }
 // test();
 
-
+// misscelanout sum problem
 // write a methods printNumbers (from, to) that outputs a number every second between from & to. (Don't use setInterval)
 // write a caching function (memoize) which either calculates or returns from cache
+// custom bind
+// for (var i = 0; i <5; i++) {
+//     setTimeout(()=> console.log(i), 100);
+// }
+// promises based outputs
