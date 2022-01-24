@@ -216,5 +216,4 @@ console.log('first');
 setTimeout(() => {
     console.log('some log');
 }, 1000);
-Promise.resolve(1);
 console.log('one more');
