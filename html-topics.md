@@ -83,3 +83,5 @@ getElementById id - -
 getElementsByName name - ✔
 getElementsByTagName tag or '\*' ✔ ✔
 getElementsByClassName class ✔ ✔
+
+https://javascript.info/basic-dom-node-properties
