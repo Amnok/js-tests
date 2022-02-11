@@ -1,0 +1,1 @@
+-> JS is synchronous , blocking, single threaded lang.

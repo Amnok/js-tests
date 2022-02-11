@@ -7,3 +7,6 @@ across all instances of that function.
 --> arrow functions don't have an prototype
 
 -> On every function prorotype there is a property called constructor which points back to the function itself.
+
+-> prototype chain is a way of delegation through all objects to find the key until
+Object.protype = null.
