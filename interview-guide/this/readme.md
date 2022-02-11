@@ -1,0 +1,14 @@
+this
+-> it is the execution context for that particular call
+
+-> different ways to determine this keyword
+-->implicit binding
+when a object is invoked with the dot notation , the object to the left of that dot
+is what the this keyword is referencing. Ex :- person.sayName()
+--> explicit binding
+call, apply, bind
+--> new binding
+
+--> defaut binding
+fallback if none of above matched
+if none of the three rules are satisfied , javascript will default to the global scope.
