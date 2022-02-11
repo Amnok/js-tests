@@ -1,5 +1,7 @@
 this
--> it is the execution context for that particular call
+-> it is the execution context for a function call
+-> it allows you to introduce reusability by allowing this value to be dynamic based on how a
+function is invoked.
 
 -> different ways to determine this keyword
 -->implicit binding
