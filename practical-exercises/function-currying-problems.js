@@ -1,40 +1,35 @@
-// write a function that takes any function and returns a curried verison of the function
+// write a function that takes any function and returns a curried verison of the function (Problem 1)
 
-// function sum(a,b,c) {
-//     return a+b+c;
-// }
-
-// function genericCurry(func){
-// console.log(func.length);
-// // const length = func.length;
-// let length = 0;
-// if(!func.length) return;
-//     return function inner(a) {
-//         if(a) length++;
-//         if(length > func.length) return console.log('more then required');
-//         if(length === func.length) {
-//             // return sum here
-//         } else {
-//             return function(b) {
-//                 return a+b;
-//             }
-//         }
-//     }
-// }
-//  genericCurry(sum);
-
-
-// Write a generic currying function
-
-
-function sum() {
-    let calc = 0;
-return function inner(a) {
-    if(a) return  calc + inner(a);
-    else return calc;
-}
+function sum(a, b, c) {
+  return a + b + c;
 }
 
-const curriedSum = sum();
+function genericCurry(func) {
+  return function currify(...args) {
+    if (args.length >= func.length) {
+      return func.apply(this, args);
+    } else {
+      return function (...newargs) {
+        return currify.apply(this, args.concat(newargs));
+      };
+    }
+  };
+}
+const curriedSum = genericCurry(sum);
+console.log(curriedSum(2)(3)(5));
+console.log(curriedSum(2, 3, 5));
 
-curriedSum(1)(2)(3)()
+
+
+
+
+// infinite currying (Problem 2)
+
+function sum(a) {
+    return function(b) {
+        if(b) return sum(a+b);
+        return a;
+    }
+}
+
+console.log(sum(1)(2)(3)());
