@@ -37,4 +37,4 @@ return function inner(a) {
 
 const curriedSum = sum();
 
-curriedSum(1)(2)(3)();
+curriedSum(1)(2)(3)()
