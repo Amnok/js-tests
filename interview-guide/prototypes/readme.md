@@ -1,6 +1,6 @@
 Prototype
 
--> In JS ebery function has an object called prototype which allows us to share methods
+-> In JS every function has an object called prototype which allows us to share methods
 across all instances of that function.
 -> We can use that property to define all the shareble methods.
 

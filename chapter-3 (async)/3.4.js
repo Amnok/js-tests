@@ -211,9 +211,10 @@ let pro = Promise.all([p1, p2, p3])
 // }
 
 
-
+var promise = Promise.resolve('hi there');
 console.log('first');
 setTimeout(() => {
     console.log('some log');
 }, 1000);
+promise.then(val => console.log(val));
 console.log('one more');
