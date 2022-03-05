@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic event delegation</title>
+</head>
+
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>third</li>
+        <li>forth</li>
+        <li>fifth</li>
+    </ul>
+</body>
+<script>
+    const ul = document.querySelector('ul');
+    ul.addEventListener('click', function (e) {
+        console.dir(e.target.textContent);
+    })
+</script>
+
+</html>
+<!-- in the example above, instead of attaching the handler in each li , we attached the handler on the parent only -->
