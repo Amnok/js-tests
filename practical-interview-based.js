@@ -18,18 +18,18 @@ for (var i = 0; i <5; i++) {
 // }
 
 
-let obj = {
-    name: 'hi',
-    getName: () => {
-        console.log(this.name);
-    }
-}
-let obj = {
-    name: 'hi',
-    getName: function() {
-        console.log(this.name);
-    }
-}
+// let obj = {
+//     name: 'hi',
+//     getName: () => {
+//         console.log(this.name);
+//     }
+// }
+// let obj = {
+//     name: 'hi',
+//     getName: function() {
+//         console.log(this.name);
+//     }
+// }
 
 async function test() {
  console.log('hi');
