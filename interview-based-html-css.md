@@ -1,3 +1,17 @@
+-> what is doctype ?
+
+-> doctype quirk mods ?
+https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+
+-> important meta elements (charset, viewport, keywords, description, facebook og tags)
+https://developers.facebook.com/docs/sharing/webmasters#markup
+
+-> <em> element is used by browsers to get the important content. (<i> element is deprecated).
+-> <i> and <bold> are deprecated as styling should be done in css. <em> and <strong> are used alternatively to put more
+emphasis on content from browser point of view.
+
+-> html entities
+-> a href element (download attribute)
 -> selectors specificity
 -> attribute selectors
 -> Pseudo elements and classes
