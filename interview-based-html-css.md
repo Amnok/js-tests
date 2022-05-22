@@ -11,9 +11,29 @@ https://developers.facebook.com/docs/sharing/webmasters#markup
 emphasis on content from browser point of view.
 
 -> html entities
--> a href element (download attribute)
+
+-> a href element (download , target attributes)
+
+-> img tag (object-fit)
+
+-> video (controls, autoplay, loop)
+
+-> audio(most of its attributes are same as video)
+
+=> lists
+=> description lists
+
+=> tables (border-collapse, thead, tbody, colspan, tfoot)
+
+=> semantic elements
+-> mark, time
+
+=> structuring a web page with semantics
+
 -> selectors specificity
+
 -> attribute selectors
+
 -> Pseudo elements and classes
 -> box model
 -> css positions
