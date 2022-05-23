@@ -30,12 +30,28 @@ emphasis on content from browser point of view.
 
 => structuring a web page with semantics
 
+=> stylesheets (inline,internal, external)
+
+=> mormalize css
+
+=> selectors
+
+=> relational selectors
+
+=> pseudo class selectors (to style elements in a particular state)
+
+=> pseudo element selectors (to style the part of an element)
+
 -> selectors specificity
 
+=> gradients (cssgradient.io)
 -> attribute selectors
 
--> Pseudo elements and classes
--> box model
+=> box model
+
+=> margin collapsing
+
+=>
 -> css positions
 -> block vs inline elements
 => Semantic vs non-semantic tags
