@@ -51,8 +51,18 @@ emphasis on content from browser point of view.
 
 => margin collapsing
 
-=>
+=>sizing elements
+-> margin doesn't affect the size of elements, padding and border does
+->box-sizing
+-> universal selector
+-> universal selector(\*) vs body
+
+=> absoulute vs relative units
+
 -> css positions
+
+=> media queries
+
 -> block vs inline elements
 => Semantic vs non-semantic tags
 =>Different kinds of meta tags with usages?
