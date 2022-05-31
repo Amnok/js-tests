@@ -1,17 +1,18 @@
-Function.prototype.myBind = function (context) {
-    let self = this;
-    return function(args) {
-         self.call(context);
+const person = {
+    name: 'test',
+}
+
+function sayMyName() {
+    console.log('my name is ', this.name);
+}
+Function.prototype.bind2 = function(context) {
+    let func = this;
+    console.log(this);
+    console.log(context);
+    return function () {
+        func.call(context);
     }
 }
 
-const user = {
-    name: 'aka',
-    getName = () => {
-
-}
-}
-
-const secondMethod = user.getName.myBind(user);
-secondMethod(1);
-
+const namedMethod = sayMyName.bind2(person);
+namedMethod();

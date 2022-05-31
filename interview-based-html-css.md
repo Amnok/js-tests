@@ -63,6 +63,8 @@ emphasis on content from browser point of view.
 
 => media queries
 
+=> css variable declaration
+
 -> block vs inline elements
 => Semantic vs non-semantic tags
 =>Different kinds of meta tags with usages?
