@@ -1,14 +1,24 @@
 const element = document.querySelector('#myInput');
-let timeout;
+const name = document.querySelector('#name');
+name.textContent = 'throttling';
+
+const calculateThrottle = throttle((val) => {
+console.log(val);
+}, 1000);
 element.addEventListener('input', (e) => {
-    if(timeout > 2000) {
-        clearTimeout(timeout);
-    }
-    timeout = setTimeout(() => {
-        someApi();
-    }, 2000);
+calculateThrottle(e.target.value);
 });
 
-function someApi() {
-    console.log('calling api...');
+function throttle(cb, delay = 1000) {
+    let shouldWait = false;
+    return (args) => {
+        if(shouldWait) return;
+        cb(args);
+        shouldWait = true;
+        setTimeout(() => {
+            shouldWait = false;
+        }, delay);
+
+    }
+
 }
