@@ -10,3 +10,6 @@ across all instances of that function.
 
 -> prototype chain is a way of delegation through all objects to find the key until
 Object.protype = null.
+
+-> Object.create
+Ex:- let person = Object.create(somemethod) // object.create will put smemethod to person prototype
