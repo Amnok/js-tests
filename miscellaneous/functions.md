@@ -1,3 +1,0 @@
--> every function in JS has a hidden property as [[Environment]] which enables them ton store the references of outer lexical scope.
--> with Var we can redeclare a variable any number of times.
-->

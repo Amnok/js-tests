@@ -1,5 +1,0 @@
--> inline vs block elements
--> what are SVG's
--> what are semantic elements
--> target vs currentTarget
--> domcontentLoaded vs onLoad

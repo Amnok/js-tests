@@ -7,8 +7,6 @@ function sayMyName() {
 }
 Function.prototype.bind2 = function(context) {
     let func = this;
-    console.log(this);
-    console.log(context);
     return function () {
         func.call(context);
     }
