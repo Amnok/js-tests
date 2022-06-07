@@ -1,31 +1,30 @@
-let v = {
-  name: 'ak',
-  getVal() {
-    return 'value';
-  },
-  user: {
-    firstName: 'ak',
-    lastName: 'bk',
-  },
+const object = {
+    name: 'Student 1',
+    age: 25,
+    address: {
+        location : {
+            city: 'New Delhi',
+            state: 'Delhi'
+        },
+        phone: 8888888888,
+        languages: ['Hindi', 'English']
+    }
 };
-let cloned = {};
 
-function clone(obj) {
-    let keys  = Object.keys(obj);
-    keys.forEach(k => {
-        if( typeof obj[k] === 'object' ) {
-            console.log("here", obj[k]);
-            clone(obj[k]);
-            //recursive
-        }
-        else if(typeof obj[k] === 'function' ) {
-            cloned[k] = {...obj[k]};
-        }
-        else {
-            cloned[k] = obj[k];
-        }
-    });
-    console.log('cloned', cloned);
-    console.log('obj', obj);
+function deepClone(object){
+	var newObject = {};
+	for(var key in object){
+    if(Array.isArray(object[key])) {
+      newObject[key] = object[key];
+    }
+		else if(typeof object[key] === 'object'  && object[key] !== null ){
+		 newObject[key] = deepClone(object[key]);
+		}else{
+		 newObject[key] = object[key];
+		}
+	}
+	return newObject;
 }
-clone(v);
+
+const val = deepClone(object);
+console.log(val);
