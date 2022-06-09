@@ -1,7 +1,8 @@
 Iterables & iterators
 
-->they were introduced to process a sequence of data more efficiently.
+->they were introduced in ES6 to process a sequence of data more efficiently.
 ->iteration in JS can be done through for loop, while loop, do while loop.
+-> But the way to access every data structure (array, string) is quite different.
 -> these were introduced to have a uniform way of accessing the data.
 
 -> An object that implements the iterable protocol is called an iterable.
@@ -21,3 +22,6 @@ that returns an object that conforms to the iterator protocol.
 
 -> An iterator is an object that implements a next method that will return an object
 with two keys - value and done and is capable of giving us access to elements in a collection one at a time.
+
+-> string, array,map, set are default iterables
+-> An object is not an built-in iterable
