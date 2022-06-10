@@ -1,5 +1,9 @@
-Asynchronous Javascipt
+-> JS is synchronous , blocking, single threaded lang.
+-> callbacks are functions passed as arguments to other functions.
+-> due to callback hell promises were introduced.
 
-3.1 -> callbacks examples
-3.2 -> promises example
-3.3 -> async await examples
+->A promise let's you associate handlers with an asynchronous action's eventual success value or failure reason.
+-> promise has three states
+--> pending, fulfilled, rejected
+
+-> Async functions always returns a promise.

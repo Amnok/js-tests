@@ -1,13 +1,13 @@
 
 // scenario-1 multiple promises test
 
-var p1 = Promise.resolve(1);
-var p2 = Promise.reject(2);
-var p3 = Promise.resolve(3);
+// var p1 = Promise.resolve(1);
+// var p2 = Promise.reject(2);
+// var p3 = Promise.resolve(3);
 
-let pro = Promise.all([p1, p2, p3])
-.then(val => console.log(val))
-.catch(err => console.log('error', err));
+// let pro = Promise.all([p1, p2, p3])
+// .then(val => console.log(val))
+// .catch(err => console.log('error', err));
 
 // ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-2 
 
@@ -211,10 +211,10 @@ let pro = Promise.all([p1, p2, p3])
 // }
 
 
-var promise = Promise.resolve('hi there');
-console.log('first');
-setTimeout(() => {
-    console.log('some log');
-}, 1000);
-promise.then(val => console.log(val));
-console.log('one more');
+// var promise = Promise.resolve('hi there');
+// console.log('first');
+// setTimeout(() => {
+//     console.log('some log');
+// }, 1000);
+// promise.then(val => console.log(val));
+// console.log('one more');
