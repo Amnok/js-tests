@@ -1,4 +1,4 @@
--> JS is synchronous , blocking, single threaded lang.
+-> JS is synchronous , blocking, single threaded language.
 -> callbacks are functions passed as arguments to other functions.
 -> due to callback hell promises were introduced.
 

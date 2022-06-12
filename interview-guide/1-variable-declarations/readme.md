@@ -5,4 +5,4 @@ variable daclarations (let vs const vs var)
 
 -> let and const are hoisted but they are never initialized even with undefined
 
-=> all const declarations mst be initialized and once initialized you cannot reassign them.
+=> all const declarations must be initialized and once initialized you cannot reassign them.
