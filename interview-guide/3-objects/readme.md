@@ -1,3 +1,7 @@
+-> objects are reference types
+
+-> Object.keys, Object.values, Object.entries, Object.assign
+
 this
 -> it is the execution context for a function call
 -> it allows you to introduce reusability by allowing this value to be dynamic based on how a
