@@ -21,3 +21,15 @@ function test() {
 }
 test();
 console.log(a);
+
+// shadowing
+
+function test() {
+    var a = 'hi';
+
+    if(true) {
+        let a = 'there';
+        console.log(a);
+    }
+}
+

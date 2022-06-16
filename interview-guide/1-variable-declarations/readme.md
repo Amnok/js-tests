@@ -6,3 +6,7 @@ variable daclarations (let vs const vs var)
 -> let and const are hoisted but they are never initialized even with undefined
 
 => all const declarations must be initialized and once initialized you cannot reassign them.
+
+-> variable shadowing
+-> we can shadow var variable wih let but not vice versa.
+-> temporal dead zone

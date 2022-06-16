@@ -18,3 +18,6 @@ call, apply, bind
 --> defaut binding
 fallback if none of above matched
 if none of the three rules are satisfied , javascript will default to the global scope.
+
+-> json.stringify vs json.parse
+-> shallow copy vs deep copy
