@@ -218,3 +218,23 @@
 // }, 1000);
 // promise.then(val => console.log(val));
 // console.log('one more');
+
+
+// ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> scenario-15
+
+//   const promise1 = new Promise((resolve, reject) => {
+//     console.log(1);
+//     resolve('success');
+//   })
+//   const promise2 = new Promise((resolve, reject) => {
+//     console.log(5);
+//     setTimeout(() =>resolve('success'), 200);
+//   })
+//   promise1.then(()=> {
+//     console.log(3);
+//   })
+//   promise2.then(()=> {
+//     console.log(11);
+//   });
+//   setTimeout(() => console.log(4), 200);
+//   console.log(100);

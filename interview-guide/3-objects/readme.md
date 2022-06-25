@@ -1,6 +1,6 @@
 -> objects are reference types
 
--> Object.keys, Object.values, Object.entries, Object.assign
+-> Object.keys, Object.values, Object.entries, Object.assign, Object.fromEntries
 
 this
 -> it is the execution context for a function call
