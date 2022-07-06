@@ -49,10 +49,66 @@
 
 // output for below
 
-var bar =1;
-foo = {};
-foo: {
-    bar: 2;
-    baz: ++bar;
-}
-console.log(foo);
+// var bar =1;
+// foo = {};
+// foo: {
+//     bar: 2;
+//     baz: ++bar;
+// }
+// console.log(foo);
+
+// output for below
+
+// function greet(person) {
+//     if (person === { name: 'amy' }) {
+//       return 'hey amy'
+//     } else {
+//       return 'hey user'
+//     }
+//   }
+//   console.log(greet({ name: 'amy' }))
+
+// output for below
+
+//   const user = { name: 'amy' }
+//   function greet(person) {
+//     if (person === user ) {
+//       return 'hey amy'
+//     } else {
+//       return 'hey user'
+//     }
+//   }
+//   console.log(greet(user))
+
+// output for below
+
+//   let human = {
+//     name: 'manav',
+//     sayName() {
+//       console.log(this.name)
+//     },
+//   }
+//   let sayName = human.sayName
+//   sayName()
+
+// output for below
+
+//   let human = {
+//     name: 'manav',
+//     sayName() {
+//       console.log(this.name)
+//     },
+//   }
+//   human.sayName();
+
+// output for below
+
+//   let AB = {
+//     x: 10,
+//     printX: function () { 
+//       console.log(x)
+//     }
+//   }
+//   AB.printX()
+
+  
