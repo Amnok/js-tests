@@ -1,6 +1,12 @@
 # Primitives
 
---> Number,BigInt String, boolean, Symbol, undefined, null
+*Number
+*BigInt
+*String
+*boolean
+*Symbol
+*undefined
+\*null
 
 ## BigInt
 
