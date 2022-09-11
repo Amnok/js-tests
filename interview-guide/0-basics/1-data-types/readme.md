@@ -10,4 +10,4 @@
 
 ## BigInt
 
-bigint value is created by appending n to the end of an interger.
+> bigint value is created by appending n to the end of an interger.
