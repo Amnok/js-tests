@@ -1,98 +1,132 @@
--> what is doctype ?
+# HTML & CSS interview questions
 
--> doctype quirk mods ?
-https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+> what is doctype ?
 
--> important meta elements (charset, viewport, keywords, description, facebook og tags)
-https://developers.facebook.com/docs/sharing/webmasters#markup
+> doctype quirk mods ?
+>
+> > https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
 
--> <em> element is used by browsers to get the important content. (<i> element is deprecated).
--> <i> and <bold> are deprecated as styling should be done in css. <em> and <strong> are used alternatively to put more
-emphasis on content from browser point of view.
+> important meta elements (charset, viewport, keywords, description, facebook og tags)
+>
+> > https://developers.facebook.com/docs/sharing/webmasters#markup
 
--> html entities
+> <em> element is used by browsers to get the important content. (<i> element is deprecated).
+> <i> and <bold> are deprecated as styling should be done in css. <em> and <strong> are used alternatively to put more
+> emphasis on content from browser point of view.
 
--> a href element (download , target attributes)
+> html entities
 
--> img tag (object-fit)
+> a href element (download , target attributes)
 
--> video (controls, autoplay, loop)
+> img tag (object-fit)
 
--> audio(most of its attributes are same as video)
+> video (controls, autoplay, loop)
 
-=> lists
-=> description lists
+> audio(most of its attributes are same as video)
 
-=> tables (border-collapse, thead, tbody, colspan, tfoot)
+> lists
+> description lists
 
-=> semantic elements
--> mark, time
+> tables (border-collapse, thead, tbody, colspan, tfoot)
 
-=> structuring a web page with semantics
+> semantic elements
+> mark, time
 
-=> stylesheets (inline,internal, external)
+> structuring a web page with semantics
 
-=> mormalize css
+> stylesheets (inline,internal, external)
 
-=> selectors
+> mormalize css
 
-=> relational selectors
+> selectors
 
-=> pseudo class selectors (to style elements in a particular state)
+> relational selectors
 
-=> pseudo element selectors (to style the part of an element)
+> pseudo class selectors (to style elements in a particular state)
 
--> selectors specificity
+> pseudo element selectors (to style the part of an element)
 
-=> gradients (cssgradient.io)
--> attribute selectors
+> selectors specificity
 
-=> box model
+> gradients (cssgradient.io)
+> attribute selectors
 
-=> margin collapsing
+> box model
 
-=>sizing elements
--> margin doesn't affect the size of elements, padding and border does
-->box-sizing
--> universal selector
--> universal selector(\*) vs body
+> margin collapsing
 
-=> absoulute vs relative units
+> sizing elements
+> margin doesn't affect the size of elements, padding and border does
+> box-sizing
+> universal selector
+> universal selector(\*) vs body
 
--> css positions
+> absoulute vs relative units
 
-=> media queries
+> css positions
 
-=> css variable declaration
+> media queries
 
--> block vs inline elements
-=> Semantic vs non-semantic tags
-=>Different kinds of meta tags with usages?
-=> open graph meta tags
-=> Difference between block vs inline vs inline-block?
-=> What is the usage of box-sizing?
-=> Difference between pseudo-classes and pseudo-selectors?
-=> What are entities in HTML?
-=> What are hyperlinks, internal vs external hyperlinks?
-=> Difference between hyperlinks and buttons?
-=> Different kinds of targets in history objects?
-=> window.open
-=> Image handling and background all properties?
-=> Audio and Video elements with different attributes?
-=> Lists and table (brief demo).
-=> What is the purpose of normalize CSS?
-=> Selectors specificity
-=> Px vs rem vs em (measuring units)?
-=> Relative vs Absolute vs fixed vs sticky
-=> Flex and Grid
-=> Media queries with example
-=> What are CSS sprites
-=> Different kinds of transformations in CSS?
-=> Transition property in CSS?
-=> Animation property in CSS?
-=> How to write object-oriented CSS? (like bootstrap)
-=> What is the BEM methodology?
-=> localStorage vs sessionStorage
-=> What are web workers?
-=> Server-sent events (EventSource Object)
-=> CSS attribute selectors
+> css variable declaration
+
+> block vs inline elements
+
+> Semantic vs non-semantic tags
+
+> Different kinds of meta tags with usages?
+
+> open graph meta tags
+
+> Difference between block vs inline vs inline-block?
+
+> What is the usage of box-sizing?
+
+> Difference between pseudo-classes and pseudo-selectors?
+
+> What are entities in HTML?
+
+> What are hyperlinks, internal vs external hyperlinks?
+
+> Difference between hyperlinks and buttons?
+
+> Different kinds of targets in history objects?
+
+> window.open
+
+> Image handling and background all properties?
+
+> Audio and Video elements with different attributes?
+
+> Lists and table (brief demo).
+
+> What is the purpose of normalize CSS?
+
+> Selectors specificity
+
+> Px vs rem vs em (measuring units)?
+
+> Relative vs Absolute vs fixed vs sticky
+
+> Flex and Grid
+
+> Media queries with example
+
+> What are CSS sprites
+
+> Different kinds of transformations in CSS?
+
+> Transition property in CSS?
+
+> Animation property in CSS?
+
+> How to write object-oriented CSS? (like bootstrap)
+
+> What is the BEM methodology?
+
+> localStorage vs sessionStorage
+
+> What are web workers?
+
+> Server-sent events (EventSource Object)
+
+> CSS attribute selectors

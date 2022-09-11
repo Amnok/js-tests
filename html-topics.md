@@ -1,87 +1,88 @@
-# what are semantics in HTML
+# HTML Topics
 
-# what to define in head sections?
+> what are semantics in HTML
 
-# various meta tags ? also what are open graph meta tags ?
+> what to define in head sections?
 
-https://ahrefs.com/blog/open-graph-meta-tags/
-https://www.freecodecamp.org/news/meta-tag-in-html-what-is-metadata-and-meta-description-example/
-https://www.youtube.com/watch?v=SElOdK2qTpI
+> various meta tags ? also what are open graph meta tags ?
 
-# Preload vs prefetch
+- https://ahrefs.com/blog/open-graph-meta-tags/
+- https://www.freecodecamp.org/news/meta-tag-in-html-what-is-metadata-and-meta-description-example/
+- https://www.youtube.com/watch?v=SElOdK2qTpI
 
-https://3perf.com/blog/link-rels
-https://3perf.com/talks/web-perf-101/
-https://github.com/GoogleChromeLabs/webpack-libs-optimizations
+> Preload vs prefetch
 
-# async vs defer
+- https://3perf.com/blog/link-rels
+- https://3perf.com/talks/web-perf-101/
+- https://github.com/GoogleChromeLabs/webpack-libs-optimizations
 
-# css content visibility
+> async vs defer
 
-# DOM & shadow DOM
+> css content visibility
 
-# CSS layouts (Flex, Grid, Floats)
+> DOM & shadow DOM
 
-# css Units
+> CSS layouts (Flex, Grid, Floats)
 
-# CSS responsives
+> css Units
 
-# what is box-model
+> CSS responsives
 
-# block vs inline vs inline-block
+> what is box-model
 
-# where to use box-sizing
+> block vs inline vs inline-block
 
-# difference b/w pseudo classes ans pseudo selectors
+> where to use box-sizing
 
-# overflow properties and their usages
+> difference b/w pseudo classes ans pseudo selectors
 
-# what are entities in HTML
+> overflow properties and their usages
 
-# what are hyperlinks ? internal vs external hyperlinking ? hyperlinks vs buttons ? different kind of targets
+> what are entities in HTML
 
-# different properties of images and object- fit
+> what are hyperlinks ? internal vs external hyperlinking ? hyperlinks vs buttons ? different kind of targets
 
-# Audio and video elemnts different attributes
+> different properties of images and object- fit
 
-# lists and tables
+> Audio and video elemnts different attributes
 
-# why do we use normalize css
+> lists and tables
 
-# selectors specificity
+> why do we use normalize css
 
-# inheritance in CSS
+> selectors specificity
 
-# px vs % vs em vs rem (measuring units)
+> inheritance in CSS
 
-# positioning (relative vs absoulute vs fixed vs sticky)
+> px vs % vs em vs rem (measuring units)
 
-# flex (flex grow, flex shrink, flex basis)
+> positioning (relative vs absoulute vs fixed vs sticky)
 
-# flex (justify-content, align-items, align-content)
+> flex (flex grow, flex shrink, flex basis)
 
-# media queries with examples
+> flex (justify-content, align-items, align-content)
 
-# what are CSS sprites
+> media queries with examples
 
-# images and its types (raster vs vector)
+> what are CSS sprites
 
-# transformations, transitions and animatons
+> images and its types (raster vs vector)
 
-# object oriented CSS
+> transformations, transitions and animatons
 
-# BEM
+> object oriented CSS
 
-# importat meta tags and open graph protocol (all meta tags)
+> BEM
 
-# DOM manipulation methods
+> importat meta tags and open graph protocol (all meta tags)
 
-Method Searches by... Can call on an element? Live?
-querySelector CSS-selector ✔ -
-querySelectorAll CSS-selector ✔ -
-getElementById id - -
-getElementsByName name - ✔
-getElementsByTagName tag or '\*' ✔ ✔
-getElementsByClassName class ✔ ✔
+> DOM manipulation methods
 
-https://javascript.info/basic-dom-node-properties
+- Method Searches by... Can call on an element? Live?
+- querySelector CSS-selector ✔ -
+- querySelectorAll CSS-selector ✔ -
+- getElementById id - -
+- getElementsByName name - ✔
+- getElementsByTagName tag or '\*' ✔ ✔
+- getElementsByClassName class ✔ ✔
+- https://javascript.info/basic-dom-node-properties
