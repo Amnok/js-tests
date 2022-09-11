@@ -1,3 +1,6 @@
+-> use strict
+--> runs js in strict mode, developers console doesn't use use strict by default.
+
 ->Primitives
 --> Number, String, boolean, Symbol, undefined, null
 

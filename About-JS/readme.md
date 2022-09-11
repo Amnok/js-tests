@@ -1,5 +1,7 @@
 ## JS introduction
 
+-> JS in multiparadigm language (functional + object oriented). Its not purely functional as in functional language we cann't do any kind of mutation whereas in jS we do it so its not fully functional.
+
 -> Javascript is an dynamically typed, single threaded, language which is used to give dynamic behaviour to static web pages.
 
 -> Javascript uses V8 engine at its core.
