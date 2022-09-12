@@ -1,12 +1,15 @@
-variable daclarations (let vs const vs var)
+# Variable daclarations (let vs const vs var)
 
--> var declations are function scoped whereas let & const are block scoped.
--> only variable declarations are hoisted at the top not variable initializations.
+> var declations are function scoped whereas let & const are block scoped.
 
--> let and const are hoisted but they are never initialized even with undefined
+> only variable declarations are hoisted at the top not variable initializations.
 
-=> all const declarations must be initialized and once initialized you cannot reassign them.
+> let and const are hoisted but they are never initialized even with undefined
 
--> variable shadowing
--> we can shadow var variable wih let but not vice versa.
--> temporal dead zone
+> all const declarations must be initialized and once initialized you cannot reassign them.
+
+> variable shadowing
+
+> > we can shadow var variable wih let but not vice versa.
+
+> > temporal dead zone
