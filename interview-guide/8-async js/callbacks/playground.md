@@ -1,3 +1,6 @@
+# callbacks example
+
+```javascript
 const users = getUsers((users) => {
   console.log('users are ', users);
   getRepos((repos) => {
@@ -41,3 +44,4 @@ function getCommits(cb) {
     ]);
   }, 1000);
 }
+```

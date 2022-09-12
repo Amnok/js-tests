@@ -1,3 +1,6 @@
+# async-await example
+
+```javascript
 function getUsers() {
   return new Promise((resolve, reject) => {
     console.log('hi', resolve, reject);
@@ -49,3 +52,4 @@ async function getAllData() {
 }
 
 getAllData();
+```
