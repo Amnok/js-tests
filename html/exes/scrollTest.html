@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll tester</title>
+    <style>
+        .container {
+            margin: 100px auto;
+            width: 400px;
+            height: 300px;
+            overflow: scroll;
+        }
+
+        .terms {
+            display: flex;
+        }
+
+        .read {
+            display: flex;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam neque nesciunt dolore obcaecati, cum, tempore
+        minima qui minus vel perferendis aliquid, architecto doloremque tenetur exercitationem expedita velit voluptatem
+        debitis! Quod fugiat blanditiis quos veniam sit eos odit reprehenderit hic mollitia? Accusamus consectetur
+        tempore soluta natus officiis quidem iste alias tempora earum unde excepturi porro temporibus nesciunt pariatur,
+        inventore asperiores minima. Voluptatum atque distinctio blanditiis. Nihil odit quisquam reiciendis quod
+        assumenda nobis ut minus maiores voluptate placeat! Delectus ut dicta voluptatum vero quidem temporibus, at sit
+        fuga doloribus, exercitationem quasi? Explicabo at officia repellendus qui tempora iste? Repudiandae nostrum quo
+        libero nulla obcaecati, sed modi rem repellat sit sapiente neque veritatis mollitia, quos rerum natus autem
+        odit. Dolorum quaerat dignissimos facilis tempore iure velit provident fuga quae odio natus vitae sit ullam qui
+        exercitationem placeat reprehenderit et, nam inventore sed quis tenetur officiis nostrum molestiae sapiente?
+        Nesciunt, nam aperiam nihil harum alias repellendus velit quae neque. Numquam, facilis perferendis vitae rerum
+        quam suscipit dicta possimus, ducimus voluptas nemo soluta dolor expedita nihil aut. Explicabo vero quibusdam
+        porro similique veritatis excepturi quisquam vel culpa pariatur earum fuga modi repellat voluptate, hic corporis
+        laboriosam nesciunt harum omnis, assumenda reprehenderit ullam ut! Officia dolore accusantium exercitationem
+        assumenda magni iste itaque dicta consequatur! Distinctio laudantium repellendus voluptas! Quaerat repellat quas
+        mollitia quod, molestias autem necessitatibus optio consequatur. Aut tempora tempore, voluptatum id animi quis
+        inventore ut nisi, ullam rem sit distinctio architecto ex qui accusamus. Saepe commodi pariatur nisi laborum
+        quasi amet, possimus velit atque doloremque laboriosam aut quos repudiandae non dolore ducimus reiciendis
+        aspernatur tempora? Sit quasi magnam perferendis sequi id itaque cum aut, dignissimos libero cupiditate
+        voluptatibus a esse dolorum assumenda! Eligendi porro placeat corporis excepturi consequatur laudantium modi
+        repellendus sapiente itaque fugiat ipsa optio veritatis, nesciunt, esse dolore suscipit harum sed, repellat
+        exercitationem voluptatibus saepe. Asperiores quibusdam aperiam non impedit itaque repellendus neque esse,
+        minima et? Dicta, molestias? Atque quia maxime, quis fuga animi vitae libero hic, nulla, recusandae eaque
+        tenetur. Accusantium alias officiis nisi exercitationem, quae, sapiente dolore eligendi esse animi consequuntur
+        natus, molestias officia? Error pariatur accusamus nobis fuga assumenda nam sunt, neque iste aspernatur numquam
+        nesciunt unde facilis, eaque dignissimos ducimus. Sunt placeat nihil eum iure incidunt accusamus excepturi,
+        aliquam omnis quibusdam amet tenetur atque porro veritatis cumque tempora sit vitae obcaecati facere quo
+        pariatur modi. Excepturi libero, facere magnam id adipisci a iste est magni cupiditate, obcaecati repellendus
+        nulla, neque quasi quaerat repellat aliquam ad unde deleniti impedit animi consequatur ducimus distinctio fuga.
+        Consectetur recusandae fugit sint iste non ducimus? Sit sint odit placeat. Libero architecto nisi debitis
+        repellat blanditiis aperiam et, error, expedita asperiores impedit ipsam ratione. Nulla voluptate corrupti ipsum
+        quia ex dignissimos, laboriosam nisi doloribus, consectetur labore sint reiciendis optio nam? Quae, natus ipsam.
+        Minima ut quidem voluptatem ducimus? Molestias eligendi, quod voluptas nisi tempora atque esse impedit provident
+        vero autem tenetur quasi placeat quisquam molestiae explicabo ducimus, facere perferendis voluptatum fugit?
+        Rerum praesentium odit tenetur, blanditiis rem inventore eius ratione magnam excepturi sunt alias.
+    </div>
+    <div class="terms">
+        <div> All Terms Read</div>
+        <input type="checkbox" disabled>
+    </div>
+</body>
+<script>
+    const container = document.querySelector('.container');
+    const terms = document.querySelector('.terms');
+    function checkReading(element) {
+        const { scrollHeight, scrollTop, clientHeight } = element.target;
+        let val = scrollHeight - Math.round(scrollTop) === clientHeight;
+        console.log(val);
+        return val ? true : false;
+    }
+    container.addEventListener('scroll', (element) => {
+        const isRead = checkReading(element);
+        if (isRead) {
+            input = terms.querySelector('input');
+            input.disabled = false;
+            terms.classList.add('read');
+        }
+    })
+</script>
+
+</html>

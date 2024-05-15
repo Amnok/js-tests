@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <p>Coloured clock</p>
+    <div class="timer">
+        <span class="hours"></span>:
+        <span class="minutes"></span>:
+        <span class="seconds"></span>
+    </div>
+    <!-- click on this button calls clockStart() -->
+    <input type="button" onclick="clockStart()" value="Start">
+
+    <!-- click on this button calls clockStop() -->
+    <input type="button" onclick="clockStop()" value="Stop">
+
+    <script>
+        let interval = null;
+        const container = document.querySelector('.timer');
+
+        const hours = document.querySelector('.hours');
+        hours.style.color = 'red';
+        const minutes = document.querySelector('.minutes');
+        minutes.style.color = 'green';
+        const seconds = document.querySelector('.seconds');
+        seconds.style.color = 'blue';
+        function clockStart() {
+            interval = setInterval(() => {
+                const time = new Date();
+                hours.textContent = time.getHours();
+                minutes.textContent = time.getMinutes();
+                seconds.textContent = time.getSeconds();
+            }, 1000);
+            // timer.textContent = time;
+        }
+
+        function clockStop() {
+            console.log('clockStop');
+            clearInterval(interval);
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 3px;
+            text-align: center;
+        }
+
+        th {
+            font-weight: bold;
+            background-color: #E6E6E6;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Write a function createCalendar(elem, year, month).
+
+    <p> The call should create a calendar for the given year/month and put it inside elem.</p>
+
+    The calendar should be a table, where a week is <tr>, and a day is <td>. The table top should be
+        <th> with weekday names: the first day should be Monday, and so on till Sunday.</p>
+
+            <div id="calendar"></div>
+
+            <script>
+                const calender = document.querySelector('#calendar');
+                function getDaysInMonth(year, month) {
+                    return new Date(year, month, 0).getDate();
+                }
+                function getStartDay(dateString) {
+                    return new Date(dateString).toLocaleString('en-us', { weekday: 'long' });
+                }
+                function getData(elem, year, month) {
+                    const table = document.createElement('table');
+                    const days = getDaysInMonth(year, month);
+                    const dateString = `${month}/01/${year}`;
+                    const startingDay = getStartDay(dateString);
+                    return { days, startingDay }
+
+                }
+                const { days, startingDay } = getData(calendar, 2012, 9);
+                console.log({ days, startingDay });
+                const dayNames = ['MO', 'TU', 'WE', 'TH', 'FR', 'ST', 'SU'];
+                const table = document.createElement('table');
+                dayNames.forEach(day => {
+                    const header = document.createElement('th');
+                    header.textContent = day;
+                    table.append(header);
+                });
+                let tr = document.createElement('tr');
+                let diff = 5;
+                let val = 1;
+                for (let i = 1; i <= 35; i++) {
+                    const td = document.createElement('td');
+                    if (i <= diff) {
+                        td.textContent = '';
+                        tr.append(td);
+                        continue;
+                    }
+                    td.textContent = val++;
+                    tr.append(td);
+                    if (i % 7 == 0) {
+                        table.append(tr);
+                        tr = document.createElement('tr');
+                    }
+                }
+                table.append(tr);
+                calender.append(table);
+            </script>
+
+</body>
+
+</html>

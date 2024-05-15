@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        Write a function createTree that creates a nested ul/li list from the nested object.
+    </p>
+    <div id="container"></div>
+    <script>
+        let data = {
+            "Fish": {
+                "trout": {},
+                "salmon": {}
+            },
+            "Tree": {
+                "Huge": {
+                    "sequoia": {},
+                    "oak": {}
+                },
+                "Flowering": {
+                    "apple tree": {},
+                    "magnolia": {}
+                }
+            }
+        };
+
+        let container = document.getElementById('container');
+        createTree(data, container); // creates the tree in the container
+
+        function createTree(data, container) {
+            const ul = document.createElement('ul');
+            Object.entries(data).forEach(([key, val]) => {
+                if (typeof val === 'object' && Object.keys(val).length > 0) {
+                    const li = document.createElement('li');
+                    li.textContent = key;
+                    ul.append(li);
+                    createTree(val, li);
+
+                } else {
+                    const li = document.createElement('li');
+                    li.textContent = key;
+                    ul.append(li);
+                }
+            });
+            container.append(ul);
+        }
+
+    </script>
+</body>
+
+</html>

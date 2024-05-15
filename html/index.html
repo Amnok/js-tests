@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+
+<body>
+
+    <div>&lt;h1&gt;</div>
+    <form action="">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="" id="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+        </div>
+        <!-- datalist */ -->
+        <input type="text" list="countries" />
+        <datalist id="countries">
+            <option>India</option>
+            <option>Australia</option>
+            <option>Brazil</option>
+        </datalist>
+
+        <!-- dropdown list */ -->
+
+        <select name="" id="" multiple>
+            <option>India</option>
+            <option>Australia</option>
+            <option>Brazil</option>
+        </select>
+
+        <!-- dropdown list with groups*/ -->
+
+        <select name="" id="">
+            <optgroup label="front-end courses">
+                <option>React</option>
+                <option>Angular</option>
+                <option>Vue</option>
+            </optgroup>
+            <optgroup label="backend-end courses">
+                <option>Noda</option>
+                <option>Java</option>
+                <option>Python</option>
+            </optgroup>
+        </select>
+
+
+        <!-- checkboxes */ -->
+
+        <div>
+            <input type="checkbox" name="" id="frontend">
+            <label class='label-inline' for="frontend">frontend</label>
+        </div>
+        <div>
+            <input type="checkbox" name="" id="backend">
+            <label class='label-inline' for="backend">backend</label>
+        </div>
+
+        <!-- Radio buttons */ -->
+
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label class='label-inline' for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female">
+            <label class='label-inline' for="female">female</label>
+        </div>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>

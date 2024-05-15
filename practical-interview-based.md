@@ -60,7 +60,7 @@ obj.getName()
 ```javascript
 async function test() {
   console.log('hi');
-  Promise.resolve((v) => console.log(val));
+  Promise.resolve((v) => console.log('yayyy'));
   setTimeout(() => {
     console.log('me too');
   }, 0);
