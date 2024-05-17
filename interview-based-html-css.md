@@ -129,4 +129,4 @@
 
 > Server-sent events (EventSource Object)
 
-> CSS attribute selectors
+> CSS attribute selectors - yes
